@@ -1,0 +1,203 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+#title{
+  background-color:#e0005a;
+  color: #fff;
+}
+h1{
+
+   font-size: 3.5rem;
+   line-height: 1.5;
+   font-weight: bold;
+}
+
+h2{
+  font-weight: bold;
+  line-height: 3rem;
+}
+
+h3{
+  font-weight: bold;
+}
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.btn{
+  margin: 5% 3% 5% 0;
+}
+
+.img-Title{
+  transform: rotate(25deg);
+  position: absolute;
+  width: 20%;
+  right: 20%;
+}
+
+.fas{
+  color: red;
+  font-size: 50px;
+  margin-bottom: 1rem;
+}
+
+.fas:hover{
+  color: white;
+  background-color:  #e0005a;
+}
+
+
+.feat-text{
+  text-align: center;
+  margin: 100px auto 100px;
+  padding: 5%;
+
+}
+
+
+
+#features{
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+/* Testimonials */
+
+#testimonials{
+  text-align: center;
+  background-color:#e0005a;
+  color: white;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press{
+  background-color:#e0005a;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-img{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+.price-head{
+  text-align: center;
+}
+
+.btn-price{
+  width: 100%;
+  background-color: #e0005a;
+}
+
+.btn-out{
+  background-color: white;
+  border-color: #e0005a;
+
+}
+
+.btn-price:hover{
+  background-color: pink;
+}
+
+#pricing{
+  margin: 7% 15%;
+  color: #e0005a;
+}
+
+
+.pricing-col{
+  padding: 3% 2%;
+  text-align: center;
+}
+
+@media (max-width:900px) {
+
+  #title{
+     text-align: center;
+  }
+
+  .img-Title{
+    position: static;
+    width: 30%;
+  }
+
+  .home-head{
+    font-size: 30px;
+  }
+}
+
+#cta{
+  background-color: #e0005a;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.cta-button{
+  margin: 70px 20px;
+}
+
+.cta-text{
+  font-size: 60px;
+  color: white;
+}
+
+#footer{
+  text-align: center;
+  padding: 3% 5%;
+}
+
+.foot-font{
+  padding: 5px;
+  font-size: 20px;
+  color:#e0005a;
+}
+
+.foot-font:hover{
+  color: white;
+  background-color:#e0005a;
+
+}
+@media (max-width:900px) {
+  .cta-text{
+    font-size: 30px;
+  }
+  .cta-button{
+    margin: 10px 20px;
+  }
+}
